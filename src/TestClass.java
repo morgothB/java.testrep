@@ -6,5 +6,6 @@ public class TestClass {
         for (int c : s){
             System.out.print(String.format("%02X", c-42) );
         }
+	System.out.println("");
     }
 }
